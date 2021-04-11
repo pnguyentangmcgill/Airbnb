@@ -4,4 +4,4 @@ FROM python:3.8
 COPY . /app
 WORKDIR /app
 # Install requirements
-RUN pip3 install -r requirements.txt
+RUN conda install --file requirements.txt
